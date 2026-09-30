@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Inteligente - Fim da Lotação nos Hospitais</title>
+  
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+    <header>
+        <div class="nav-container">
+            <div class="logo-area">
+                <span class="logo-title">SAÚDE INTELIGENTE</span>
+                <span class="logo-subtitle">Projeto Escolar - Front-End</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#dados">Problema</a></li>
+                <li><a href="#captura">Cadastre-se</a></li>
+                <li><a href="#captura" class="nav-btn">Quero Acesso</a></li>
+            </ul>
+        </div>
+    </header>
+
+    
+    <div class="main-container">
+
+   
+        <section class="hero">
+            <div class="hero-content">
+                <h1>O Fim da Lotação nos Hospitais: <span>Tecnologia para Organizar o SUS.</span></h1>
+                <p>Uma solução inovadora utilizando inteligência artificial para triagem inteligente, direcionamento correto de pacientes e redução drástica do tempo de espera nas emergências.</p>
+                <div class="hero-buttons">
+                    <a href="#captura" class="btn btn-primary">Quero testar a solução</a>
+                    <a href="#dados" class="btn btn-outline">Ver Dados Rápidos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <h3>🏥 Hospitais Inteligentes</h3>
+                <p>Menos filas, mais agilidade e atendimento humanizado.</p>
+            </div>
+        </section>
+
+  
+        <h3 id="dados" class="section-title">OS DADOS QUE IMPACTAM O SISTEMA</h3>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="icon">⏱️</div>
+                <h4>Tempo de Espera SUS</h4>
+                <div class="value">4 a 8 Horas</div>
+                <div class="desc">Em emergências de hospitais públicos</div>
+            </div>
+            <div class="stat-card">
+                <div class="icon">🛏️</div>
+                <h4>Ocupação Crítica</h4>
+                <div class="value">90% a 100%</div>
+                <div class="desc">Acima de 85% já é risco de colapso</div>
+            </div>
+            <div class="stat-card">
+                <div class="icon">🚑</div>
+                <h4>Demandas Leves</h4>
+                <div class="value">30% a 50%</div>
+                <div class="desc">Casos no P.S. que iriam na UBS</div>
+            </div>
+        </div>
+
+      
+        <div id="captura" class="capture-section">
+            <div class="capture-box">
+                <h3>🚀 Quer acompanhar o lançamento do Chatbot?</h3>
+                <p>Deixe seu contato ou Instagram para receber acesso antecipado ao protótipo e novidades do projeto:</p>
+                
+                <form class="capture-form" onsubmit="event.preventDefault(); alert('Obrigado! Seu contato/@ foi capturado com sucesso.');">
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="text" placeholder="Seu @ do Instagram ou E-mail" required>
+                    <button type="submit" class="btn btn-primary">Garantir Acesso Antecipado</button>
+                </form>
+            </div>
+        </div>
+
+     
+        <div id="solucao" class="solution-box">
+            <h3 style="font-size: 1.3rem; color: #1A202C; text-align: center;">🤖 Como o Chatbot com IA Resolve o Problema</h3>
+            <p style="text-align: center; color: var(--text-muted); font-size: 0.95rem; margin-top: 0.5rem;">Evita que lotações aconteçam por pura desorganização e falta de orientação prévia.</p>
+            
+            <div class="solution-grid">
+                <div class="solution-item">
+                    <div style="font-size: 1.5rem;">💬</div>
+                    <strong>Triagem Automatizada</strong>
+                    <p>Faz perguntas diretas ao paciente via celular e classifica o nível de urgência e risco.</p>
+                </div>
+                <div class="solution-item">
+                    <div style="font-size: 1.5rem;">🧭</div>
+                    <strong>Direcionamento Preciso</strong>
+                    <p>Encaminha casos graves para o hospital e casos leves para o posto de saúde mais próximo.</p>
+                </div>
+                <div class="solution-item">
+                    <div style="font-size: 1.5rem;">📉</div>
+                    <strong>Redução de 30 a 40%</strong>
+                    <p>Diminui drasticamente o fluxo desnecessário nas portas dos pronto-socorros.</p>
+                </div>
+            </div>
+        </div>
+
+      
+        <div class="footer-banner">
+            <h2>“O problema não é só falta de médicos ou hospitais — é falta de organização. E tecnologia resolve isso.”</h2>
+        </div>
+
+    </div>
+
+  
+    <div class="footer-credits">
+        <p><strong>Equipe do Projeto:</strong> Bernardo Prata, Gabriel Andrade e Pedro Lucas</p>
+        
+    </div>
+
+</body>
+</html>
